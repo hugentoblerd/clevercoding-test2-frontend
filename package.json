@@ -1,0 +1,14 @@
+{
+  "name": "clevercoding-test2-frontend",
+  "version": "1.0.0",
+  "description": "Fullstack Dev Assessment Frontend half",
+  "author": "David Hugentobler <davidhugentobler30@gmail.com>",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve"
+  },
+  "devDependencies": {
+    "serve": "^11.2.0"
+  },
+  "dependencies": {}
+}
