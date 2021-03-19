@@ -5,7 +5,11 @@
 ## Build Setup
 
 ``` bash
-# serve 
+# install dependencies
+npm install
+
+# serve at localhost:5000
+serve
 ```
 ## Tasks
 
@@ -15,7 +19,7 @@
     
     **see the [PHP API](https://github.com/hugentoblerd/clevercoding-test2-api)*
 
-- [x] Setup a frontend web app that has a button that when pushed makes a rest api call to get a random number and then parses the json and displays the number.  
+- [x] Setup a frontend web app that has a button that when pushed makes a rest api call to get a random number(between 1 and 100) and then parses the json and displays the number.  
     The random number should show without refreshing the page. Pushing the button again will make a new rest call and display the new number.
 
-- [ ] For bonus points. On the frontend add each random number to an array and display it in a responsive grid and make each grid item a separate component which you pass the random number as a prop and then communicate back with the parent component to reactively update the number which the grid item is clicked.  Placing a border around the selected grid item.
+- [x] For bonus points. On the frontend add each random number to an array and display it in a responsive grid and make each grid item a separate component which you pass the random number as a prop and then communicate back with the parent component to reactively update the number which the grid item is clicked.  Placing a border around the selected grid item.
